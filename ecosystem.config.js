@@ -1,13 +1,11 @@
 module.exports = {
   apps : [{
     name   : "config-server",
-    script : "java -jar ./config-server/target/config-server-0.0.1-SNAPSHOT.jar
-"
+    script : "java -jar ./config-server/target/config-server-0.0.1-SNAPSHOT.jar"
   },
   {
     name   : "service-registry",
-    script : "java -jar ./service-registry/target/eureka-server-0.0.1-SNAPSHOT.jar
-"
+    script : "java -jar ./service-registry/target/eureka-server-0.0.1-SNAPSHOT.jar"
   },
   {
     name   : "api-gateway",
