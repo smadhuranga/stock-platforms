@@ -11,7 +11,7 @@ spring:
           # Change this to your GitHub repository URL once created and pushed
           uri: https://github.com/smadhuranga/stock-config-server.git
 #          uri: file://${user.home}/Desktop/CL/stock-main/stock-config-repo
-          search-paths: stock-service, supplier-service, file-service, api-gateway, eureka-server
+          search-paths: stock-service, supplier-service, file-service, api-gateway, service-registry
 
 eureka:
   client:
